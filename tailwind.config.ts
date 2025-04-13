@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -69,27 +70,6 @@ export default {
                     dark: '#1A1F2C',
                     light: '#F1F1F1',
                 }
-				,
-				// New Green-Black Theme
-				greenBlack: {
-					background: '#0A0E11',
-					primary: '#00FF00',
-					secondary: '#00CC00',
-					accent: '#00AA00',
-					text: '#00FF00',
-					textSecondary: '#00CC00'
-				}
-			},
-			backgroundColor: {
-				'dark-green': '#001A00',
-				'deep-black': '#0A0E11'
-			},
-			textColor: {
-				'neon-green': '#00FF00',
-				'forest-green': '#00CC00'
-			},
-			borderColor: {
-				'green-border': '#00AA00'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
